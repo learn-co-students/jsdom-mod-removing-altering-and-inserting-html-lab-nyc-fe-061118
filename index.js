@@ -4,3 +4,5 @@ main.remove()
 const newHeader = document.createElement('h1');
 newHeader.setAttribute("id", "victory");
 newHeader.innerText = "Christian Georgeou is the champion!";
+var body = document.querySelector('body')
+body.appendChild(h1)
